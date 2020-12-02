@@ -22,6 +22,12 @@ From here, you'll want to open up a Command Prompt and cd into the macrecovery f
 cd Paste_Folder_Path
 ```
 
+Note: that if you downloaded OpenCorePkg to a different drive than what the command prompt opened with, put /d between cd and "insert directory here"
+
+```sh
+cd /d Paste_Folder_Path
+```
+
 ![](../images/installer-guide/winblows-install-md/command-prompt.png)
 
 Now run one of the following depending on what version of macOS you want(Note these scripts rely on [Python](https://www.python.org/downloads/) support, please install if you haven't already):
